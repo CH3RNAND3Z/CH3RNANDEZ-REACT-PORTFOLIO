@@ -13,13 +13,13 @@ const ResumeLink = styled.a`
 const Resume = () => {
   return (
     <ResumeContainer>
-      <ResumeLink href="link-to-your-resume.pdf" target="_blank">
+      <ResumeLink href="file:///C:/Users/chris/OneDrive/Documents/Christopher%20Hernandez%20Resume%202023.pdf" target="_blank">
         Download Resume
       </ResumeLink>
       <h3>Proficiencies</h3>
       <ul>
-        <li>Proficiency 1</li>
-        <li>Proficiency 2</li>
+        <li>MERN Stack</li>
+        <li>Front-end & Back-end Development</li>
         {/* Add more proficiencies */}
       </ul>
     </ResumeContainer>

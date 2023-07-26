@@ -17,9 +17,8 @@ const FooterLink = styled.a`
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterLink href="link-to-github-profile">GitHub</FooterLink>
-      <FooterLink href="link-to-linkedin-profile">LinkedIn</FooterLink>
-      <FooterLink href="link-to-third-platform-profile">Third Platform</FooterLink>
+      <FooterLink href="https://github.com/CH3RNAND3Z">GitHub</FooterLink>
+      <FooterLink href="https://www.linkedin.com/in/christopher-hernandez-978b45125/">LinkedIn</FooterLink>
     </FooterContainer>
   );
 };

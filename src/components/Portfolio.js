@@ -31,11 +31,11 @@ const Portfolio = () => {
   return (
     <PortfolioContainer>
       <ProjectItem>
-        <ProjectTitle>Project 1</ProjectTitle>
-        <p>Project description here.</p>
+        <ProjectTitle>Zest</ProjectTitle>
+        <p>We were motivated to create a job tracking app because we wanted to create a tool that would help us organize our job search. Zest allows us to save jobs, contacts, and events to a calendar. This prevents us from applying to the same job twice and allows us to keep track of our progress.</p>
         <ProjectLinks>
-          <a href="link-to-deployed-app">View App</a>
-          <a href="link-to-github-repo">GitHub</a>
+          <a href="https://zest-app-2266f75dda29.herokuapp.com/">View App</a>
+          <a href="https://github.com/pchandler858/zest">GitHub</a>
         </ProjectLinks>
       </ProjectItem>
       {/* Add more project items */}
