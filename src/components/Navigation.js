@@ -15,13 +15,21 @@ const NavItem = styled.div`
   font-weight: ${({ isSelected }) => (isSelected ? 'bold' : 'normal')};
 `;
 
+const sections = [
+  { title: 'About Me' },
+  { title: 'Portfolio' },
+  { title: 'Contact' },
+  { title: 'Resume' },
+];
+
 const Navigation = () => {
   return (
     <NavContainer>
-      <NavItem isSelected>About Me</NavItem>
-      <NavItem>Portfolio</NavItem>
-      <NavItem>Contact</NavItem>
-      <NavItem>Resume</NavItem>
+      {sections.map((section, index) => (
+        <NavItem key={index} isSelected={index === 0}>
+          {section.title}
+        </NavItem>
+      ))}
     </NavContainer>
   );
 };
